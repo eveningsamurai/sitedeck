@@ -1,0 +1,72 @@
+<!--
+//================================================
+/*
+
+Site Deck
+Copyright: Avinash Padmanabhan
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.0/
+
+*/
+//================================================
+-->
+<html>
+    <head>
+        <title>Site Deck</title>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/webframe.js"></script>
+        <script type="text/javascript" src="scripts/options.js"></script>
+        <style>
+            body, h2 {
+                font-family: sans-serif;
+            }
+            #onestep {
+                background-color: #3f6dc9;
+                border: 2px solid black;
+                padding: 90px;
+                width: 420px;
+                margin: 0 auto;
+                text-align: left;
+                color: #fff;
+            }
+            body {
+                margin-top: 100px;
+                text-align: center;
+                min-width: 600px;
+                min-height: 600px;
+                font-family: sans-serif;
+            }
+            h2 {
+                font-size: 36px;
+            }
+				#stop
+        </style>
+    </head>
+    <body>
+        <h2>URL List</h2>
+        <div id="onestep">
+			  <p><input id="toAddUrl" size="50"/> <input type="button" id="addUrl" value="Add Url" /></p>        
+			  <p><input id="toRemoveUrl" size="50"/> <input type="button" id="removeUrl" value="Remove Url" /></p>
+			  <p><input id="setIntervalTimer" /> <input type="button" id="intervalTimer" value="Set Interval" /></p>
+			  <p><input id="setZoom" />% <input type="button" id="zoomPercentage" value="Set Zoom" /></p>
+			  <p id="interval"></p>
+			  <p id="zoom"></p>
+			  <p id="cycleThroughList"></p>
+        </div>
+    </body>
+</html>
