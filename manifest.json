@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Site Deck",
 	"description": "Cycle through different urls at specified intervals",
-	"version": "1.1.5",
+	"version": "1.1.7",
 	"background": {
 		"page": "background.html"
 	},
