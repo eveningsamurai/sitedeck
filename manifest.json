@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Site Deck",
-	"description": "Cycle through different urls at specified intervals",
-	"version": "1.1.7",
+	"name": "SiteDeck",
+	"description": "SiteDeck - Automatically cycle through different websites/urls. By Avinash Padmanabhan",
+	"version": "1.1.8",
 	"background": {
 		"page": "background.html"
 	},
@@ -10,7 +10,8 @@
 	"options_page": "options.html",
 
 	"permissions":[
-		"tabs"
+		"tabs",
+		"idle"
 	],
 
 	"icons": {
@@ -21,7 +22,7 @@
 	},
 
 	"browser_action": {
-		"default_title": "WebFrame",
+		"default_title": "SiteDeck - Automatically cycle through different websites/urls",
 		"default_icon": {
        	"16": "icons/icon16.png",
 			"19": "icons/icon19.png",
